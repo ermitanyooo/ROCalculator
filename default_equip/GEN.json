@@ -12148,6 +12148,257 @@
 		"idx": 3
 	},
 	{
+		"id": "shadowarmor",
+		"itemid": 24840,
+		"label": "S.Armor",
+		"equipname": "M. Arch Mage Shadow Armor",
+		"refinelevel": 10,
+		"grade": {
+			"id": 0,
+			"label": "No Grade"
+		},
+		"effectlist": [],
+		"combolist": [
+			{
+				"itemid_every": [
+					24793
+				],
+				"itemid_any": [],
+				"equipname": "Master Shadow Shield",
+				"effectlist": [
+					{
+						"EffectNumber": 2,
+						"EffectType": {
+							"id": "AllTrait"
+						},
+						"Enable": true
+					}
+				]
+			},
+			{
+				"itemid_every": [
+					24841,
+					24793
+				],
+				"itemid_any": [],
+				"equipname": "M. Arch Mage Shadow Shoes + Master Shadow Shield",
+				"effectlist": [
+					{
+						"EffectNumber": 1,
+						"EffectType": {
+							"id": "PATK"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": 1,
+						"EffectType": {
+							"id": "SMATK"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": "(SHARMORR+SHSHOER+SHSHIER)>26?50:0",
+						"EffectType": {
+							"id": "BypassDEFPercent"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": "(SHARMORR+SHSHOER+SHSHIER)>26?50:0",
+						"EffectType": {
+							"id": "BypassMDEFPercent"
+						},
+						"Enable": true
+					}
+				]
+			},
+			{
+				"itemid_every": [
+					24841,
+					24842,
+					24843,
+					24792,
+					24793
+				],
+				"itemid_any": [],
+				"equipname": "Master Shadow (Weapon/Shield) + M. Arch Mage Shadow (Shoes/Earring/Pendant)",
+				"effectlist": [
+					{
+						"EffectNumber": 20,
+						"EffectType": {
+							"id": "BypassRESPercent"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": 20,
+						"EffectType": {
+							"id": "BypassMRESPercent"
+						},
+						"Enable": true
+					}
+				]
+			}
+		],
+		"idx": 3,
+		"enchantSlot": 2,
+		"availableEnchants": [
+			[312189, 312190, 312191, 312192, 312193, 312194],
+			[312195, 312196, 312197, 312198, 312199, 312241, 312242, 312243, 312244, 312245, 312246, 312247, 312248, 312249, 312250]
+		],
+		"idx": 3
+	},
+	{
+		"id": "shadowshoe",
+		"itemid": 24841,
+		"label": "S.Shoes",
+		"equipname": "M. Arch Mage Shadow Shoes",
+		"refinelevel": 10,
+		"grade": {
+			"id": 0,
+			"label": "No Grade"
+		},
+		"effectlist": [],
+		"combolist": [
+			{
+				"itemid_every": [
+					24793
+				],
+				"itemid_any": [],
+				"equipname": "Master Shadow Shield",
+				"effectlist": [
+					{
+						"EffectNumber": 2,
+						"EffectType": {
+							"id": "AllTrait"
+						},
+						"Enable": true
+					}
+				]
+			}
+		],
+		"idx": 3,
+		"enchantSlot": 2,
+		"availableEnchants": [
+			[312189, 312190, 312191, 312192, 312193, 312194],
+			[312195, 312196, 312197, 312198, 312199, 312241, 312242, 312243, 312244, 312245, 312246, 312247, 312248, 312249, 312250]
+		],
+		"idx": 3
+	},
+	{
+		"id": "shadowearring",
+		"itemid": 24842,
+		"label": "S.Earring",
+		"equipname": "M. Arch Mage Shadow Earring",
+		"refinelevel": 10,
+		"grade": {
+			"id": 0,
+			"label": "No Grade"
+		},
+		"effectlist": [],
+		"combolist": [
+			{
+				"itemid_every": [
+					24792
+				],
+				"itemid_any": [],
+				"equipname": "Master Shadow Weapon",
+				"effectlist": [
+					{
+						"EffectNumber": 2,
+						"EffectType": {
+							"id": "AllTrait"
+						},
+						"Enable": true
+					}
+				]
+			},
+			{
+				"itemid_every": [
+					24843,
+					24792
+				],
+				"itemid_any": [],
+				"equipname": "M. Arch Mage Shadow Pendant + Master Shadow Weapon",
+				"effectlist": [
+					{
+						"EffectNumber": 1,
+						"EffectType": {
+							"id": "PATK"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": 1,
+						"EffectType": {
+							"id": "SMATK"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": "(SHACCRR+SHACCPR+SHWEAR)>26?50:0",
+						"EffectType": {
+							"id": "BypassDEFPercent"
+						},
+						"Enable": true
+					},
+					{
+						"EffectNumber": "(SHACCRR+SHACCPR+SHWEAR)>26?50:0",
+						"EffectType": {
+							"id": "BypassMDEFPercent"
+						},
+						"Enable": true
+					}
+				]
+			}
+		],
+		"idx": 3,
+		"enchantSlot": 2,
+		"availableEnchants": [
+			[312189, 312190, 312191, 312192, 312193, 312194],
+			[312195, 312196, 312197, 312198, 312199, 312241, 312242, 312243, 312244, 312245, 312246, 312247, 312248, 312249, 312250]
+		],
+		"idx": 3
+	},
+	{
+		"id": "shadowpendant",
+		"itemid": 24843,
+		"label": "S.Pendant",
+		"equipname": "M. Arch Mage Shadow Pendant",
+		"refinelevel": 10,
+		"grade": {
+			"id": 0,
+			"label": "No Grade"
+		},
+		"effectlist": [],
+		"combolist": [
+			{
+				"itemid_every": [
+					24792
+				],
+				"itemid_any": [],
+				"equipname": "Master Shadow Weapon",
+				"effectlist": [
+					{
+						"EffectNumber": 2,
+						"EffectType": {
+							"id": "AllTrait"
+						},
+						"Enable": true
+					}
+				]
+			}
+		],
+		"idx": 3,
+		"enchantSlot": 2,
+		"availableEnchants": [
+			[312189, 312190, 312191, 312192, 312193, 312194],
+			[312195, 312196, 312197, 312198, 312199, 312241, 312242, 312243, 312244, 312245, 312246, 312247, 312248, 312249, 312250]
+		],
+		"idx": 3
+	},
+	{
 		"id": "shadow",
 		"itemid": 24882,
 		"label": "S.Weapon",

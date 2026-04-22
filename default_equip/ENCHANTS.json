@@ -14961,6 +14961,156 @@
 		"flags": ""
 	},
 	{
+		"id": "shadow1",
+		"itemid": 312241,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Soul Vulcan Strike)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('SOUL_VC_STRIKE')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312242,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Mystery Illusion)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('MYSTERY_ILLUSION')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312243,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Floral Flare Road)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('FLORAL_FLARE_ROAD')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312244,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Crimson Arrow)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('CRIMSON_ARROW')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312245,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Crystal Rain)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('RAIN_OF_CRYSTAL')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312246,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Frozen Slash)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('FROZEN_SLASH')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312247,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Tornado Storm)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('TORNADO_STORM')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312248,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Storm Cannon)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('STORM_CANNON')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312249,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Stratum Tremor)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('STRANTUM_TREMOR')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
+		"id": "shadow1",
+		"itemid": 312250,
+		"label": "Shadow Enchant",
+		"equipname": "AG Soul (Rock Down)",
+		"effectlist": [
+			{
+				"EffectNumber": "SKIDS('ROCK_DOWN')?(2+DOWN(SLOTR/2)):0",
+				"EffectType": {"id": "SkillDamagePercent"},
+				"Enable": true
+			}
+		],
+		"combolist": [],
+		"flags": ""
+	},
+	{
         "id": "weapon11",
         "itemid": 4818,
         "label": "Weapon Enchant",
